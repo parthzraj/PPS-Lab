@@ -73,6 +73,8 @@ def search_student():
     
     print("Student not found.\n")
 
+a = input()
+dict.get(a)
 
 
 def update_marks():
@@ -149,7 +151,7 @@ def sort_students():
 
 def main():
     while True:
-        print("\n====== Student Management System ======")
+        print("\nStudent Management System")
         print("1. Add Student")
         print("2. Display All Students")
         print("3. Search Student")

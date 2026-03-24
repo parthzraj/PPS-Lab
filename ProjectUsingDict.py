@@ -2,6 +2,8 @@
 #quetions 5 (experiments) - Implementing real-time/technical applications using Sets, Dictionaries. (Language, components of an automo- bile, Elements of a civil structure, etc.- operations of Sets &Dictionaries)
 
 
+#buildindBanaoKhulKe - project name 
+
 goodMaterials = {
     "Concrete": {"Steel", "Gravel"},
     "Steel": {"Concrete"},
@@ -33,7 +35,7 @@ def show_selected():
 
 
 def check_compatibility():
-    print("\n--- Compatibility Check Report ---")
+    print("\nCompatibility Check Report")
 
     problemsMa = False
 

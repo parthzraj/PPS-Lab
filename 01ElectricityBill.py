@@ -14,12 +14,14 @@ def calculate_bill(units, rate, subsidy_percent=0):
 units = int(input("Enter electricity units consumed: "))
 rate = float(input("Enter cost per unit: "))
 subsidy = float(input("Enter subsidy percentage (0 if none): "))
+print()
 
 
 bill, subsidy_amount, final_bill = calculate_bill(units, rate, subsidy)
 
 
-print("\n----- Electricity Bill -----")
+print("Electricity Bill ")
+print()
 print(f"Units Consumed: {units}")
 print(f"Bill before subsidy: ₹{bill:.2f}")
 print(f"Subsidy: ₹{subsidy_amount:.2f}")

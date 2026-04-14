@@ -112,6 +112,7 @@ Utility bill calculation with:
 ### Prerequisites
 
 -   Python 3.x installed on your system
+-   pygame library (for 25pygame.py): `pip install pygame`
 
 ### Step 1: Clone the Repository
 
@@ -127,6 +128,7 @@ cd PPS-Lab
 
 ### Step 3: Run a Python Program
 
+**For basic programs:**
 ```bash
 python 01ElectricityBill.py
 ```
@@ -136,6 +138,14 @@ Or for Python 3 specifically:
 ```bash
 python3 01ElectricityBill.py
 ```
+
+**For the pygame game:**
+```bash
+python 25pygame.py
+```
+
+### Step 4: Follow Interactive Prompts
+Each program will guide you with prompts when it requires input. Simply follow the on-screen instructions.
 
 ---
 
@@ -152,6 +162,11 @@ python3 01ElectricityBill.py
 
 This repository is maintained for academic and learning purposes.  
 It serves as a record of lab work and practice exercises completed during the PPS course.
+
+**Virtual Environment:** A Python virtual environment (PPSLAB/) is included with necessary dependencies pre-installed including:
+- pygame (for game development)
+- numpy, scipy, matplotlib, pandas (for scientific computing)
+- PIL (for image processing)
 
 ---
 

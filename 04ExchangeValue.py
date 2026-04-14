@@ -1,4 +1,4 @@
-lst = list(map(int, input("Enter list elements: ").split()))
+lst = list(map(int, input("Enter list elements (give sapce for each distinct element): ").split()))
 
 i = int(input("Enter first index: "))
 j = int(input("Enter second index: "))

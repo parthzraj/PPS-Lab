@@ -73,9 +73,6 @@ def search_student():
     
     print("Student not found.\n")
 
-a = input()
-dict.get(a)
-
 
 def update_marks():
     search_id = int(input("Enter Student ID to update: "))

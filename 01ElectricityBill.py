@@ -22,7 +22,7 @@ bill, subsidy_amount, final_bill = calculate_bill(units, rate, subsidy)
 
 print("Electricity Bill ")
 print()
-print(f"Units Consumed: {units}")
+print(f"Units Consumed: {units:.2f}")
 print(f"Bill before subsidy: ₹{bill:.2f}")
 print(f"Subsidy: ₹{subsidy_amount:.2f}")
 print(f"Final Bill: ₹{final_bill:.2f}")

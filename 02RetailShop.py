@@ -19,7 +19,7 @@ def retail_billing():
         if more != 'y':
             break
 
-    
+    print()
     print("BILL")
     print()
     print(f"{'Item':<15}{'Price':<10}{'Qty':<5}{'Total':<10}")
@@ -27,6 +27,8 @@ def retail_billing():
 
     for item in items:
         print(f"{item[0]:<15}{item[1]:<10}{item[2]:<5}{item[3]:<10}")
+    
+    # print(items) [('apple', 12.0, 11, 132.0), ('mango', 12.0, 11, 132.0)]
 
     print("-" * 40)
     print(f"Total Amount: ₹{total_amount}")
@@ -35,9 +37,9 @@ def retail_billing():
     if total_amount > 1000:
         discount = total_amount * 0.1
         total_amount -= discount
-        print(f"Discount Applied (10%): ₹{discount}")
+        print(f"Discount Applied (10%): ₹{discount:.2f}")
 
-    print(f"Final Amount to Pay: ₹{total_amount}")
+    print(f"Final Amount to Pay: ₹{total_amount:.2f}")
 
 
 

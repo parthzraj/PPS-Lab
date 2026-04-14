@@ -4,6 +4,7 @@ k = int(input("Enter number of rotations: "))
 
 n = len(lst)
 k = k % n
+# print(k)
 
 lst = lst[-k:] + lst[:-k]
 

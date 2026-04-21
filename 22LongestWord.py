@@ -2,6 +2,7 @@ try:
     with open("Sample.txt", "r") as file:
         data = file.read()
         words = data.split()
+        print(words)
     
     if words:
         longest_word = max(words, key=len)
